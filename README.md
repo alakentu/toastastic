@@ -48,6 +48,6 @@ Aunque nuestro código es 100% original, reconocemos el trabajo de sus creadores
 ## 📜 Licencia (GPLv3)
 Consulta el archivo [LICENSE](./LICENSE) para más detalles.
 
-Copyright (C) 2025 Gonzalo R. Meneses - @Alakentu
+---
 
-<div align="center"> <sub>Creado con ❤️ por <a href="https://github.com/alakentu">GOnzalo R. Meneses - @Alakentu</a></sub> </div>
+<div align="center"> <sub>Creado con ❤️ por <a href="https://github.com/alakentu">Gonzalo R. Meneses - @Alakentu</a></sub> </div>
