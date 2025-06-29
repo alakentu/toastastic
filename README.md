@@ -59,6 +59,6 @@ Este programa se distribuye con la esperanza de que sea útil,
 pero SIN NINGUNA GARANTÍA; sin siquiera la garantía implícita de
 COMERCIALIZACIÓN o IDONEIDAD PARA UN PROPÓSITO PARTICULAR. 
 
-Consulta el archivo [LICENSE](./LICENSE) para más detalles.
+Consulta el archivo [LICENSE](./LICENSE) para más detalles. ```
 
-<div align="center"> <sub>Creado con ❤️ por <a href="https://github.com/alakentu">GOnzalo R. Meneses - @Alakentu</a></sub> </div> ```
+<div align="center"> <sub>Creado con ❤️ por <a href="https://github.com/alakentu">GOnzalo R. Meneses - @Alakentu</a></sub> </div>
