@@ -46,7 +46,6 @@ Toastastic está inspirado en y utiliza conceptos de estas excelentes librerías
 Aunque nuestro código es 100% original, reconocemos el trabajo de sus creadores.
 
 ## 📜 Licencia (GPLv3)
-
 ```text
 Copyright (C) 2025 Gonzalo R. Meneses - @Alakentu
 
