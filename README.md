@@ -46,18 +46,8 @@ Toastastic está inspirado en y utiliza conceptos de estas excelentes librerías
 Aunque nuestro código es 100% original, reconocemos el trabajo de sus creadores.
 
 ## 📜 Licencia (GPLv3)
-```text
-Copyright (C) 2025 Gonzalo R. Meneses - @Alakentu
+Consulta el archivo [LICENSE](./LICENSE) para más detalles.
 
-Este programa es software libre: puedes redistribuirlo y/o modificarlo
-bajo los términos de la GNU General Public License publicada por
-la Free Software Foundation, ya sea la versión 3 de la Licencia, o
-(a tu elección) cualquier versión posterior.
+---
 
-Este programa se distribuye con la esperanza de que sea útil,
-pero SIN NINGUNA GARANTÍA; sin siquiera la garantía implícita de
-COMERCIALIZACIÓN o IDONEIDAD PARA UN PROPÓSITO PARTICULAR. 
-
-Consulta el archivo [LICENSE](./LICENSE) para más detalles. ```
-
-<div align="center"> <sub>Creado con ❤️ por <a href="https://github.com/alakentu">GOnzalo R. Meneses - @Alakentu</a></sub> </div>
+<div align="center"><sub>Creado con ❤️ por <a href="https://github.com/alakentu">Gonzalo R. Meneses - @Alakentu</a></sub></div>
