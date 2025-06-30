@@ -1,0 +1,66 @@
+{
+	"name": "toastastic",
+	"version": "2.0.1",
+	"description": "A lightweight, customizable toast notification library",
+	"main": "dist/toastastic.min.js",
+	"module": "dist/toastastic.esm.js",
+	"style": "dist/toastastic.min.css",
+	"type": "module",
+	"scripts": {
+		"dev": "astro dev --host --port 5000",
+		"start": "npm run dev",
+		"build": "npm run build:js && npm run build:css && npm run build:demo && npm run build:lib && npm run build:astro",
+		"build:lib": "rollup -c && sass src/scss/toastastic.scss dist/toastastic.min.css --style compressed",
+		"build:js": "rollup -c",
+		"build:css": "sass src/scss/toastastic.scss dist/toastastic.min.css --style compressed --no-source-map && sass src/scss/toastastic.scss dist/toastastic.css",
+		"build:demo": "astro build --root demo",
+		"build:astro": "astro build",
+		"test": "jest",
+		"lint": "eslint src/js/**",
+		"format": "prettier --write \"src/**/*.{js,scss}\"",
+		"prepare": "husky .husky/pre-commit 'npx lint-staged'",
+		"release": "standard-version",
+		"prepublishOnly": "npm run build && npm run test",
+		"preview": "astro preview"
+	},
+	"keywords": [
+		"toast",
+		"notification",
+		"alert",
+		"message"
+	],
+	"author": "Gonzalo R. Meneses A.",
+	"license": "GPL-3.0-or-later",
+	"devDependencies": {
+		"@babel/core": "^7.27.7",
+		"@babel/preset-env": "^7.27.2",
+		"@rollup/plugin-babel": "^6.0.4",
+		"@rollup/plugin-commonjs": "^28.0.6",
+		"@rollup/plugin-node-resolve": "^16.0.1",
+		"@rollup/plugin-terser": "^0.4.4",
+		"astro": "^5.10.1",
+		"eslint": "^9.30.0",
+		"eslint-config-prettier": "^10.1.5",
+		"husky": "^9.1.7",
+		"install": "^0.13.0",
+		"jest": "^30.0.3",
+		"lint-staged": "^16.1.2",
+		"npm": "^11.4.2",
+		"prettier": "^3.6.2",
+		"rollup": "^4.44.1",
+		"sass": "^1.89.2",
+		"standard-version": "^9.5.0"
+	},
+	"dependencies": {
+		"@astrojs/react": "^4.3.0",
+		"react": "^19.1.0",
+		"react-dom": "^19.1.0"
+	},
+	"lint-staged": {
+		"src/**/*.{js,scss}": [
+			"prettier --write",
+			"eslint --fix",
+			"git add"
+		]
+	}
+}
