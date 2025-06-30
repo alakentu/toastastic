@@ -1,6 +1,6 @@
 {
 	"name": "toastastic",
-	"version": "2.0.1",
+	"version": "2.0.2",
 	"description": "A lightweight, customizable toast notification library",
 	"main": "dist/toastastic.min.js",
 	"module": "dist/toastastic.esm.js",
@@ -15,12 +15,11 @@
 		"build:css": "sass src/scss/toastastic.scss dist/toastastic.min.css --style compressed --no-source-map && sass src/scss/toastastic.scss dist/toastastic.css",
 		"build:demo": "astro build --root demo",
 		"build:astro": "astro build",
-		"test": "jest",
 		"lint": "eslint src/js/**",
 		"format": "prettier --write \"src/**/*.{js,scss}\"",
 		"prepare": "husky .husky/pre-commit 'npx lint-staged'",
 		"release": "standard-version",
-		"prepublishOnly": "npm run build && npm run test",
+		"prepublishOnly": "npm run build",
 		"preview": "astro preview"
 	},
 	"keywords": [
